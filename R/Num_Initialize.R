@@ -4,11 +4,13 @@
 #'
 #' @param i Number.
 #' @param n Number to add.
-#' @return A Number.
+#' @return List.  Output a named list.  Element \code{success} is a boolean denoting if the function was successful.
+#'     Element \code{output} contains the function result (a numeric in the case of a success) or an error message
+#'     (in the case of a failure)
 #'
 #' @examples
 #' \dontrun{
-#' Add_Number(3, 5)
+#' Num_Initialize(3)
 #' }
 #'
 #' @export

@@ -4,7 +4,9 @@
 #'
 #' @param num1 Number.
 #' @param num2 Number.
-#' @return A Number.
+#' @return List.  Output a named list.  Element \code{success} is a boolean denoting if the function was successful.
+#'     Element \code{output} contains the function result (a numeric in the case of a success) or an error message
+#'     (in the case of a failure)
 #'
 #' @examples
 #' \dontrun{

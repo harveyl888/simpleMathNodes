@@ -12,7 +12,9 @@ Add_TwoNumbers(num1, num2)
 \item{num2}{Number.}
 }
 \value{
-A Number.
+List.  Output a named list.  Element \code{success} is a boolean denoting if the function was successful.
+    Element \code{output} contains the function result (a numeric in the case of a success) or an error message
+    (in the case of a failure)
 }
 \description{
 Node to add two numerical inputs together and return the sum

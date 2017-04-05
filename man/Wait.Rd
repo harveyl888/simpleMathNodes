@@ -12,7 +12,9 @@ Wait(i, n)
 \item{n}{Time to wait (seconds).}
 }
 \value{
-A Number.
+List.  Output a named list.  Element \code{success} is a boolean denoting if the function was successful.
+    Element \code{output} contains the function result (the input i in the case of a success) or an error message
+    (in the case of a failure)
 }
 \description{
 Node to wait for testing purposes
