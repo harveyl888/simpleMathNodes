@@ -13,7 +13,11 @@
 #'
 #' @export
 Num_Initialize <- function(n) {
-  return(n)
+  if (is.numeric(n)) {
+    return(list(success = TRUE, output = n))
+  } else {
+    return(list(success = FALSE, message = 'Input must be numeric'))
+  }
 }
 
 comment(Num_Initialize) <- '[{"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]'

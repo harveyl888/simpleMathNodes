@@ -13,7 +13,11 @@
 #'
 #' @export
 Add_Number <- function(i, n) {
-  return(i + n)
+  if (all(is.numeric(n), is.numeric(i))) {
+    return(list(success = TRUE, output = i + n))
+  } else {
+    return(list(success = FALSE, message = 'Input must be numeric'))
+  }
 }
 
 comment(Add_Number) <- '[{"name": "i", "type": "nodeinput"},

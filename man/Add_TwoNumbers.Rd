@@ -2,7 +2,7 @@
 % Please edit documentation in R/Add_TwoNumbers.R
 \name{Add_TwoNumbers}
 \alias{Add_TwoNumbers}
-\title{Add two number.}
+\title{Add two numbers.}
 \usage{
 Add_TwoNumbers(num1, num2)
 }

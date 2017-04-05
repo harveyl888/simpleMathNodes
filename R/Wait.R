@@ -13,8 +13,12 @@
 #'
 #' @export
 Wait <- function(i, n) {
-  Sys.sleep(n)
-  return(i)
+  if (is.numeric(n)) {
+    Sys.sleep(n)
+    return(list(success = TRUE, output = i))
+  } else {
+    return(list(success = FALSE, message = 'Input must be numeric'))
+  }
 }
 
 comment(Wait) <- '[{"name": "i", "type": "nodeinput"},
