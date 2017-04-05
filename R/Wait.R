@@ -17,7 +17,7 @@ Wait <- function(i, n) {
     Sys.sleep(n)
     return(list(success = TRUE, output = i))
   } else {
-    return(list(success = FALSE, message = 'Input must be numeric'))
+    return(list(success = FALSE, output = 'Input must be numeric'))
   }
 }
 

@@ -16,7 +16,7 @@ Add_TwoNumbers <- function(num1, num2) {
   if (all(is.numeric(num1), is.numeric(num2))) {
     return(list(success = TRUE, output = num1 + num2))
   } else {
-    return(list(success = FALSE, message = 'Input must be numeric'))
+    return(list(success = FALSE, output = 'Input must be numeric'))
   }
 }
 

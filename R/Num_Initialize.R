@@ -16,7 +16,7 @@ Num_Initialize <- function(n) {
   if (is.numeric(n)) {
     return(list(success = TRUE, output = n))
   } else {
-    return(list(success = FALSE, message = 'Input must be numeric'))
+    return(list(success = FALSE, output = 'Input must be numeric'))
   }
 }
 

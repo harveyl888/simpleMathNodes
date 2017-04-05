@@ -16,7 +16,7 @@ Add_Number <- function(i, n) {
   if (all(is.numeric(n), is.numeric(i))) {
     return(list(success = TRUE, output = i + n))
   } else {
-    return(list(success = FALSE, message = 'Input must be numeric'))
+    return(list(success = FALSE, output = 'Input must be numeric'))
   }
 }
 
