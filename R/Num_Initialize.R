@@ -22,5 +22,6 @@ Num_Initialize <- function(n) {
   }
 }
 
-comment(Num_Initialize) <- '[{"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]'
+#comment(Num_Initialize) <- '[{"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]'
+comment(Num_Initialize) <- '{"icon": "play", "parameters": [{"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]}'
 

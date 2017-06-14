@@ -22,6 +22,8 @@ Add_TwoNumbers <- function(num1, num2) {
   }
 }
 
-comment(Add_TwoNumbers) <- '[{"name": "num1", "type": "nodeinput"},
-{"name": "num2", "type": "nodeinput"}]'
+# comment(Add_TwoNumbers) <- '[{"name": "num1", "type": "nodeinput"},
+# {"name": "num2", "type": "nodeinput"}]'
+comment(Add_TwoNumbers) <- '{"icon": "plus", "parameters":[{"name": "num1", "type": "nodeinput"},
+{"name": "num2", "type": "nodeinput"}]}'
 

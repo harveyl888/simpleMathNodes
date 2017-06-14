@@ -23,6 +23,7 @@ Wait <- function(i, n) {
   }
 }
 
-comment(Wait) <- '[{"name": "i", "type": "nodeinput"},
-{"name": "n", "type": "numeric", "min": 1, "max": 10, "value": 1, "step": 1}]'
+#comment(Wait) <- '[{"name": "i", "type": "nodeinput"},{"name": "n", "type": "numeric", "min": 1, "max": 10, "value": 1, "step": 1}]'
+comment(Wait) <- '{"icon": "hourglass-half", "parameters": [{"name": "i", "type": "nodeinput"},
+{"name": "n", "type": "numeric", "min": 1, "max": 10, "value": 1, "step": 1}]}'
 

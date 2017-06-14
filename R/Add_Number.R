@@ -22,6 +22,8 @@ Add_Number <- function(i, n) {
   }
 }
 
-comment(Add_Number) <- '[{"name": "i", "type": "nodeinput"},
-                         {"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]'
+# comment(Add_Number) <- '[{"name": "i", "type": "nodeinput"},
+#                          {"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]'
+comment(Add_Number) <- '{"icon": "plus", "parameters": [{"name": "i", "type": "nodeinput"},
+                         {"name": "n", "type": "numeric", "min": 1, "max": 100, "value": 50, "step": 1}]}'
 
